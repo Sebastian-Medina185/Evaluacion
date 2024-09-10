@@ -1,0 +1,132 @@
+body {
+  background-color: antiquewhite;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  max-width: 100%;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  max-width: 100%;
+  gap: 40px;
+  font-size: 20px;
+  list-style: none;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-container {
+  max-width: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.grid-item {
+  padding: 22px;
+}
+
+.it1 {
+  background-color: rgb(241, 192, 127);
+  align-content: center;
+}
+
+.banner {
+  background: url('./imagenes/donuts-8962349_1280.webp') no-repeat center center;
+  background-size: cover;
+  padding: 20px;
+  text-align: center;
+  margin-left: 15px;
+}
+
+.logo {
+  padding-left: 80px;
+  padding-top: 3px;
+}
+
+.caja {
+  max-width: 100%;
+  height: 800px;
+  background-color: red;
+  width: 100%;
+  background-color: rgb(77, 108, 129);
+}
+
+.content {
+  max-width: 100%;
+  height: 700px;
+  background-color: red;
+  width: 100%;
+  background-color: rgb(77, 108, 129);
+}
+
+p {
+  font-size: 20px;
+  padding-left: 200px; 
+  padding-right: 200px;
+}
+
+h3 {
+margin-left: 200px;
+}
+
+footer {
+  background-color: #747171;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+.footer-section h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 20px;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #ddd;
+}
